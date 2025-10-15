@@ -17,6 +17,4 @@ public:
 
     void status();
 
-    void criar();
-
 };
