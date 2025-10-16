@@ -10,6 +10,7 @@ private:
     int atk;
     int def;
     int nivel;
+    std:: string tipo;
 
 public:
 
