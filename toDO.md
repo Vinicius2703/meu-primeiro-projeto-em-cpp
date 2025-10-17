@@ -27,3 +27,29 @@ tipos de pokemon [ ]
         std:: cout << ""<< std:: endl;
         std::cin >> resp; 
         std:: cout << "Iniciar jornada!"<< std:: endl;
+
+
+            std:: cout << "O";
+    dalay(150);
+    std:: cout << "l";
+    dalay(100);
+    std:: cout << "a";
+    dalay(100);
+    std:: cout << " ";
+
+    std:: cout << "v";
+    dalay(100);
+    std:: cout << "i";
+    dalay(100);
+    std:: cout << "a";
+    dalay(100);
+    std:: cout << "j";
+    dalay(100);
+    std:: cout << "a";
+    dalay(100);
+    std:: cout << "n";
+    dalay(100);
+    std:: cout << "t";
+    dalay(100);
+    std:: cout << "e";
+    dalay(100);

@@ -12,28 +12,20 @@ void historia::iniciar(){
     std::string nome;
     std:: string resp;
 
-    std:: cout << "O";
-    dalay(150);
-    std:: cout << "l";
-    dalay(100);
-    std:: cout << "a";
-    dalay(100);
-    std:: cout << " ";
+    std:: string ola = "Ola, viajante!";
+    std:: string pergunta = "Qual seu nome?";
 
-    std:: cout << "v";
-    dalay(100);
-    std:: cout << "i";
-    dalay(100);
-    std:: cout << "a";
-    dalay(100);
-    std:: cout << "j";
-    dalay(100);
-    std:: cout << "a";
-    dalay(100);
-    std:: cout << "n";
-    dalay(100);
-    std:: cout << "t";
-    dalay(100);
-    std:: cout << "e";
-    dalay(100);
+    for (char i : ola){
+        std::cout << i << std:: flush;
+        dalay(100);
+    }
+    dalay(1000);
+    std:: cout << " " << std:: endl;
+    
+    for (char i : pergunta){
+        std::cout << i << std:: flush;
+        dalay(100);
+    }
+
+
 }
