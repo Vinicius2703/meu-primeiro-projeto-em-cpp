@@ -12,7 +12,7 @@ std::string historia::iniciar(){
     std::string nome;
     std:: string resp;
 
-    std:: string ola = "Ola, meus caros teslespectadores!!!";
+    std:: string ola = "Tenna: Ola, meus caros teslespectadores!!!";
     std:: string frase1 = "Estamos iniciando mais um programa TV TIME!!!!";
     std:: string aplausos = "======= APLAUSOS =======";
     std:: string pergunta = "pode me dizer qual eh o seu nome?";
@@ -40,6 +40,7 @@ std::string historia::iniciar(){
     }
     dalay(1000);
     std:: cout << " " << std:: endl;
+    std:: cout << " " << std:: endl;
 // ===========================================
 
     for (char i : aplausos){
@@ -48,8 +49,9 @@ std::string historia::iniciar(){
     }
     dalay(1000);
     std:: cout << " " << std:: endl;
+    std:: cout << " " << std:: endl;
 
-    frase1 = "estamos aqui com um novo convidado!!!";
+    frase1 = "Tenna: estamos aqui com um novo convidado!!!";
     for (char i : frase1){
         std::cout << i << std:: flush;
         dalay(50);
@@ -78,7 +80,7 @@ std::string historia::iniciar(){
 
     }
     
-    frase1 = "Eh a sua hora de se tornar uma super estrela!!";
+    frase1 = "Tenna: Eh a sua hora de se tornar uma super estrela!!";
 
     for (char i : frase1){
         std::cout << i << std:: flush;
@@ -88,7 +90,7 @@ std::string historia::iniciar(){
     dalay(1000);
     std:: cout << " " << std:: endl;
 
-    frase1 = "IT'S TIME!!!";
+    frase1 = "IT'S TV TIME!!!";
     for (char i : frase1){
         std::cout << i << std:: flush;
         dalay(150);
