@@ -1,7 +1,8 @@
 #pragma once
+#include <string>
 
 class historia {
     public:
         historia() = default;
-        void iniciar();
+        std::string iniciar();
 };

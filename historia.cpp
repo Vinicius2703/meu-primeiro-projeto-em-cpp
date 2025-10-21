@@ -7,13 +7,14 @@ void dalay(int milliseconds){
     std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds));
 };
 
-void historia::iniciar(){
+std::string historia::iniciar(){
     // variaveis
     std::string nome;
     std:: string resp;
 
-    std:: string ola = "Ola, viajante!";
-    std:: string frase1 = "eh a primeira vez que te vejo por aqui.";
+    std:: string ola = "Ola, meus caros teslespectadores!!!";
+    std:: string frase1 = "Estamos iniciando mais um programa TV TIME!!!!";
+    std:: string aplausos = "================ APLAUSOS ================";
     std:: string pergunta = "pode me dizer qual eh o seu nome?";
     std:: string pergunta1 = "";
 
@@ -41,6 +42,22 @@ void historia::iniciar(){
     std:: cout << " " << std:: endl;
 // ===========================================
 
+    for (char i : aplausos){
+        std::cout << i << std:: flush;
+        dalay(30);
+    }
+    dalay(1000);
+    std:: cout << " " << std:: endl;
+
+    frase1 = "estamos aqui com um novo convidado!!!";
+    for (char i : frase1){
+        std::cout << i << std:: flush;
+        dalay(50);
+    }
+    dalay(1000);
+    std:: cout << " " << std:: endl;
+
+
     while (resp != "1"){
         for (char i : pergunta){
             std::cout << i << std:: flush;
@@ -60,5 +77,5 @@ void historia::iniciar(){
         std:: cout << " " << std:: endl;
 
     }
-
+    return nome;
 }
