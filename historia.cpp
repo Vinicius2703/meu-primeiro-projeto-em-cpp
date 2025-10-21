@@ -14,7 +14,7 @@ std::string historia::iniciar(){
 
     std:: string ola = "Ola, meus caros teslespectadores!!!";
     std:: string frase1 = "Estamos iniciando mais um programa TV TIME!!!!";
-    std:: string aplausos = "================ APLAUSOS ================";
+    std:: string aplausos = "======= APLAUSOS =======";
     std:: string pergunta = "pode me dizer qual eh o seu nome?";
     std:: string pergunta1 = "";
 
@@ -77,5 +77,25 @@ std::string historia::iniciar(){
         std:: cout << " " << std:: endl;
 
     }
+    
+    frase1 = "Eh a sua hora de se tornar uma super estrela!!";
+
+    for (char i : frase1){
+        std::cout << i << std:: flush;
+        dalay(50);
+    }
+
+    dalay(1000);
+    std:: cout << " " << std:: endl;
+
+    frase1 = "IT'S TIME!!!";
+    for (char i : frase1){
+        std::cout << i << std:: flush;
+        dalay(150);
+    }
+    dalay(1000);
+    std:: cout << " " << std:: endl;
+    std:: cout << " " << std:: endl;
+
     return nome;
 }
