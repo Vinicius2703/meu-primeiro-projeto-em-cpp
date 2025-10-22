@@ -4,5 +4,8 @@
 class historia {
     public:
         historia() = default;
+
         std::string iniciar();
+
+        void system_inicio();
 };

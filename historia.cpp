@@ -14,15 +14,21 @@ void print(std::string a, int b){
     }
 }
 
+void pula_linha(){
+    std:: cout << " " << std:: endl;
+    std:: cout << " " << std:: endl;
+}
+
 std::string historia::iniciar(){
+
     // variaveis
     std::string nome;
     std:: string resp;
 
 
 // as frases estao com delays, entao apliquei um for para aplicar um delay:
-
-print("ola meus caros telespectadores!!", 50);
+pula_linha();
+print("Tenna: Ola meus caros telespectadores!!", 50);
 dalay(1000); // isso aqui é uma pausa para a prox pagina
 std:: cout << " " << std:: endl;
 
@@ -30,17 +36,21 @@ print("estamos iniciando mais um programa TV Time!!", 50);
 dalay(1000); // isso aqui é uma pausa para a prox pagina
 std:: cout << " " << std:: endl;
 
-print("=== APLAUSOS === ", 10);
+pula_linha();
+print("====== APLAUSOS ====== ", 10);
 dalay(1000); // isso aqui é uma pausa para a prox pagina
 std:: cout << " " << std:: endl;
+pula_linha();
 
-print("Estamos aqui com um convidado especial!", 10);
+print("Tenna: Estamos aqui com um convidado especial!", 50);
 dalay(1000); // isso aqui é uma pausa para a prox pagina
 std:: cout << " " << std:: endl;
+print("pode me dizer qual eh o seu nome?", 50);
+pula_linha();
 
 
     while (resp != "1"){
-        print("pode me dizer qual é o seu nome?", 50);
+        
         std:: cout << " " << std:: endl;
         std:: cout << "Nome: ";
         std:: cin >> nome;
@@ -51,6 +61,7 @@ std:: cout << " " << std:: endl;
         std:: cout << "[ 1 ] sim " << std:: endl;
         std:: cout << "[ 2 ] nao " << std:: endl;
         std:: cout << " " << std:: endl;
+        std:: cout << "Escolha: ";
         std:: cin >> resp;
         std:: cout << " " << std:: endl;
 
@@ -61,8 +72,25 @@ std:: cout << " " << std:: endl;
     std:: cout << " " << std:: endl;
 
     print("IT'S TV TIME!!!", 150);
-    std:: cout << " " << std:: endl;
-    std:: cout << " " << std:: endl;
+    pula_linha();
+    dalay(3000);
 
     return nome;
+}
+
+void historia::system_inicio(){
+    print("Ola", 50);
+    dalay(1000);
+    std:: cout << " " << std:: endl; 
+
+    print("System: Seja muito bem vindo ao lobby da TV TIME!", 50);
+    std:: cout << " " << std:: endl; 
+    print("Eh uma honra ter voce aqui", 50);
+    dalay(1000); 
+    pula_linha();
+    print("System: Sinta-se a vontade para explorar quando quiser cada stage.", 50);
+    std:: cout << " " << std:: endl; 
+    print("Tenha um bom dia!", 50);
+    pula_linha();
+    
 }
