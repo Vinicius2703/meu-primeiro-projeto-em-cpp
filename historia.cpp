@@ -79,6 +79,7 @@ pula_linha();
 }
 
 void historia::system_inicio(){
+
     print("Ola", 50);
     dalay(1000);
     std:: cout << " " << std:: endl; 
@@ -93,4 +94,38 @@ void historia::system_inicio(){
     print("Tenha um bom dia!", 50);
     pula_linha();
     
+}
+
+int historia::historia_showtime(int a, std::string nome){
+    std::string resposta;
+    dalay(1000);
+    print("Tenna: E estamos aqui com nosso convidado estreando pela primeira vez no TV TIME!!!!\n\n", 50);
+    print("====== APLAUSOS ====== \n\n", 10);
+    print("Tenna: E para nosso primeiro teste, preparamos algo muito especial!!\n\n", 50);
+    print("=== SUSPENSE === \n\n", 150);
+    dalay(500);
+    print("Tenna: voce esta pronto, ", 50);
+    print(nome, 150);
+    print("?\n\n", 150);
+
+    std::cout << "[ 1 ] - Sim " << std:: endl;
+    std::cout << "[ 2 ] - Nao \n" << std:: endl;
+    std::cout << "Escolha: ";
+
+    std::cin >> resposta;
+
+    if(resposta == "1"){
+        print("Tenna: vamos comecar!!\n\n", 50);
+        dalay(500);
+        print("====== APLAUSOS ====== \n\n", 10);
+    }
+    else{
+        print("Tenna: NAO IMPORTA, VAMOS COMECAARR!!!\n\n", 10);
+        print("====== APLAUSOS ====== \n\n", 10);
+    }
+    dalay(500);
+    print("Tenna: Seu primeiro teste eh um QUIZ PASSA OU REPASSA!!!!\n\n", 50);
+    print("====== APLAUSOS ====== \n\n", 10);
+
+    return a;
 }

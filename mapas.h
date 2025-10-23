@@ -1,7 +1,8 @@
 #pragma once
+#include "historia.h"
 #include <string>
 
-class mapas{
+class mapas : public historia{
 private:
     int final_boss;
 public:

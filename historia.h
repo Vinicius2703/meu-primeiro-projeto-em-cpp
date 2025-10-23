@@ -8,4 +8,6 @@ class historia {
         std::string iniciar();
 
         void system_inicio();
+
+        int historia_showtime(int a, std::string nome);
 };

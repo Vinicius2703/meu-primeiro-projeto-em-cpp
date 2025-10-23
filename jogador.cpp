@@ -1,7 +1,7 @@
 #include "jogador.h"
 #include <iostream>
 
-jogador::jogador(std::string nome, int hp, int atk, int def, int nivel) : nome(nome), hp(hp), atk(atk), def(def), nivel(nivel){}
+jogador::jogador(std::string nome, int hp, int atk, int def, int nivel, int classe) : nome(nome), hp(hp), atk(atk), def(def), nivel(nivel), classe(classe){}
 
 
 void jogador::status(){
@@ -11,5 +11,10 @@ void jogador::status(){
     std::cout << "Vida: " << hp << std::endl;
     std::cout << "Ataque:" << atk << std::endl;
     std::cout << "Defesa: " << def << std::endl;
+    std::cout << "classe: " << classe << std::endl;
     
+}
+
+std::string jogador::getNome(){
+    return nome;
 }

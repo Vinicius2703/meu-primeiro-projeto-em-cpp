@@ -10,7 +10,7 @@ int main(){
 
     historia historia1;
     name = historia1.iniciar();
-    jogador jogador1(name, 100 , 1, 1, 0);
+    jogador jogador1(name, 100 , 1, 1, 0, 0);
     historia1.system_inicio();
     mapas mapa1;
 
@@ -28,6 +28,7 @@ int main(){
             
             if (reposta_mapa ==  "1"){
                 std::cout << "\n\n =========== indo pra o show ===========" << std::endl;
+                historia1.historia_showtime(0,jogador1.getNome());
             } else{
                 std::cout << "receba"<< std::endl;
             }
