@@ -1,32 +1,47 @@
 #include "jogador.h"
 #include "historia.h"
-#include "lobby.h"
+#include "mapas.h"
 // main == lobby
 
 int main(){
     std:: string name;
-    std:: string reposta_lobby;
+    std:: string reposta_mapa;
     std:: string mapa;
 
-    //historia historia1;
-    //name = historia1.iniciar();
-    //jogador jogador1(name, 100 , 1, 1, 0);
-   // historia1.system_inicio();
-    lobby lobby1;
+    historia historia1;
+    name = historia1.iniciar();
+    jogador jogador1(name, 100 , 1, 1, 0);
+    historia1.system_inicio();
+    mapas mapa1;
+
     while(true){
-         mapa = lobby1.lobby_tv_time();
+         mapa = mapa1.lobby_tv_time();
 
         if (mapa == "1"){
-            std::cout << "indo pra o show";
+            std::cout << "Tem certeza? \n\n"<< std::endl;
+
+            std::cout << "[ 1 ] - Sim "<< std::endl;
+            std::cout << "[ 2 ] - Nao \n\n"<< std::endl;
+
+            std::cout << "Escolha: ";
+            std::cin >> reposta_mapa;
+            
+            if (reposta_mapa ==  "1"){
+                std::cout << "indo pra o show"<< std::endl;
+            } else{
+                std::cout << "receba"<< std::endl;
+            }
+
+
         } 
         else if (mapa == "2"){
-            std::cout << "indo pra a loja";
+            std::cout << "indo pra a loja\n\n";
         }
         else if (mapa == "3"){
-            std::cout << "voce nao pode sair";
+            std::cout << "voce nao pode sair\n\n";
         }
         else if (mapa == "4"){
-            std::cout << "tchau";
+            std::cout << "tchau\n\n";
             std::exit(1);
         }
 

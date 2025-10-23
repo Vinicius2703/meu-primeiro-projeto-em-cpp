@@ -1,7 +1,7 @@
-#include "lobby.h"
+#include "mapas.h"
 #include <iostream>
 
-std::string lobby::lobby_tv_time(){
+std::string mapas::lobby_tv_time(){
 
     std::string resposta_lobby;
 
