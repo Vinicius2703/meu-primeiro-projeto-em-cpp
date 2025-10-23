@@ -27,7 +27,7 @@ int main(){
             std::cin >> reposta_mapa;
             
             if (reposta_mapa ==  "1"){
-                std::cout << "indo pra o show"<< std::endl;
+                std::cout << "\n\n =========== indo pra o show ===========" << std::endl;
             } else{
                 std::cout << "receba"<< std::endl;
             }
