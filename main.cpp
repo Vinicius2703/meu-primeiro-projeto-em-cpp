@@ -8,10 +8,11 @@ int main(){
     std:: string reposta_mapa;
     std:: string mapa;
 
-    historia historia1;
-    name = historia1.iniciar();
-    jogador jogador1(name, 100 , 1, 1, 0, 0);
-    historia1.system_inicio();
+    //historia historia1;
+    historia teste;
+    //name = historia1.iniciar();
+    //jogador jogador1(name, 100 , 1, 1, 0, 0);
+    //historia1.system_inicio();
     mapas mapa1;
 
     while(true){
@@ -28,7 +29,8 @@ int main(){
             
             if (reposta_mapa ==  "1"){
                 std::cout << "\n\n =========== indo pra o show ===========" << std::endl;
-                historia1.historia_showtime(0,jogador1.getNome());
+                //historia1.historia_showtime(0,jogador1.getNome());
+                teste.historia_showtime(0, "vini");
             } else{
                 std::cout << "receba"<< std::endl;
             }

@@ -99,9 +99,11 @@ void historia::system_inicio(){
 int historia::historia_showtime(int a, std::string nome){
     std::string resposta;
     dalay(1000);
-    print("Tenna: E estamos aqui com nosso convidado estreando pela primeira vez no TV TIME!!!!\n\n", 50);
+    print("\n\nTenna: E estamos aqui com nosso convidado estreando pela primeira vez no TV TIME!!!!\n\n", 50);
+    dalay(1000);
     print("====== APLAUSOS ====== \n\n", 10);
-    print("Tenna: E para nosso primeiro teste, preparamos algo muito especial!!\n\n", 50);
+    print("Tenna: E para nosso primeiro desafio, preparamos algo muito especial!!\n\n", 50);
+    dalay(1000);
     print("=== SUSPENSE === \n\n", 150);
     dalay(500);
     print("Tenna: voce esta pronto, ", 50);
@@ -124,8 +126,44 @@ int historia::historia_showtime(int a, std::string nome){
         print("====== APLAUSOS ====== \n\n", 10);
     }
     dalay(500);
-    print("Tenna: Seu primeiro teste eh um QUIZ PASSA OU REPASSA!!!!\n\n", 50);
-    print("====== APLAUSOS ====== \n\n", 10);
+    print("Tenna: Seu primeiro teste eh um QUIZ PASSA OU REPASSA!!!!\n", 50);
+    dalay(1000);
+    print("Tudo que voce precisa fazer eh responder 5 perguntas.\n", 50);
+    dalay(1000);
+    print("Parece simples, nao eh??.\n\n", 50);
+    dalay(1000);
+    print("Tenna: Se voce ganhar, voce passa para o proximo desafio.\n", 50);
+    dalay(1000);
+    print("E se perder...\n", 50);
+    dalay(2000);
+    print("VOCE MORRE.\n\n", 300);
+    dalay(1000);
+    print("System: Pessoal, aqui no 'TV TIME', a gente adora um drama, mas nao a VIOLENCIA!.\n", 10);
+    dalay(100);
+    print("NOSSOS DESAFIOS NAO TOLERAM NENHUM TIPO DE BRIGA! Mantenha suas maos longe do botao de ataque (e do dial do meu monitor!).\n", 10);
+    dalay(100);
+    print("Traga a sua inteligencia, seu charme... e quem sabe um dinheirinho para a lojinha de presentes, temos brindes exclusivos na loja por apenas 2.99.\n", 10);
+    dalay(100);
+    print("Afinal, eu tenho que pagar a conta de luz!.\n\n", 10);
+    dalay(1000);
+    print("Tenna: Sintonize-se! Se nao for divertido, o Mr. Tenna promete devolver o seu...", 50);
+    dalay(2000);
+    print("Tempo.\n\n", 50);
+    dalay(1000);
+    print("Tenna: Enfim.\n", 50);
+    print("Tenna: Agora, irei chamar seu concorrente!!\n\n", 50);
+    dalay(1000);
+    print("=== SUSPENSE === \n\n", 150);
+    print("Tenna: Seu concorrente eh...\n\n", 100);
+    dalay(1000);
+    print("System: SPANTOM \n\n", 100);
+    dalay(1000);
+    print("Tenna: SPANTOM?!!! \n\n", 10);
+    dalay(1000);
+    print("Spantom: HEY HEY HEY!!! OLÁ MEU [[$$CLIENTE EM POTENCIAL$$]] \n", 10);
+    print("Spantom: HEY HEY HEY!!! OLÁ MEU [[$$CLIENTE EM POTENCIAL$$]] \n", 10);
 
+
+    
     return a;
 }
