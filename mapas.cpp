@@ -12,7 +12,7 @@ std::string mapas::lobby_tv_time(){
         std:: cout << "system: Para onde voce quer ir? " << std:: endl;
         std:: cout << " " << std:: endl;
         std:: cout << "[ 1 ] - Show TV TIME " << std:: endl;
-        std:: cout << "[ 2 ] - Loja TV TIME " << std:: endl;
+        std:: cout << "[ 2 ] - Ver status " << std:: endl;
         std:: cout << "[ 3 ] - sair da TV TIME " << std:: endl;
         std:: cout << "[ 4 ] - sair do jogo\n\n" << std:: endl;
         std:: cout << "Escolha:  ";

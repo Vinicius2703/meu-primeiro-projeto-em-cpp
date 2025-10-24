@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "jogador.h"
 
 class historia {
     public:

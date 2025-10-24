@@ -140,29 +140,54 @@ int historia::historia_showtime(int a, std::string nome){
     dalay(1000);
     print("System: Pessoal, aqui no 'TV TIME', a gente adora um drama, mas nao a VIOLENCIA!.\n", 10);
     dalay(100);
-    print("NOSSOS DESAFIOS NAO TOLERAM NENHUM TIPO DE BRIGA! Mantenha suas maos longe do botao de ataque (e do dial do meu monitor!).\n", 10);
+    print("NOSSOS DESAFIOS NAO TOLERAM NENHUM TIPO DE BRIGA! Mantenha suas maos longe do botao de ataque (e do dial do meu monitor!).\n\n", 10);
     dalay(100);
-    print("Traga a sua inteligencia, seu charme... e quem sabe um dinheirinho para a lojinha de presentes, temos brindes exclusivos na loja por apenas 2.99.\n", 10);
+    print("Tenna: Traga a sua inteligencia, seu charme... e quem sabe um dinheirinho para a lojinha de presentes, temos brindes exclusivos na loja por apenas 2.99.\n", 50);
     dalay(100);
-    print("Afinal, eu tenho que pagar a conta de luz!.\n\n", 10);
+    print("Afinal, eu tenho que pagar a conta de luz!.\n\n", 30);
     dalay(1000);
     print("Tenna: Sintonize-se! Se nao for divertido, o Mr. Tenna promete devolver o seu...", 50);
     dalay(2000);
-    print("Tempo.\n\n", 50);
+    print("Tempo.\n\n", 10);
     dalay(1000);
     print("Tenna: Enfim.\n", 50);
-    print("Tenna: Agora, irei chamar seu concorrente!!\n\n", 50);
+    dalay(1000);
+    print("Agora, irei chamar seu concorrente!!\n\n", 50);
     dalay(1000);
     print("=== SUSPENSE === \n\n", 150);
+    dalay(1000);
     print("Tenna: Seu concorrente eh...\n\n", 100);
     dalay(1000);
-    print("System: SPANTOM \n\n", 100);
+    print("System: SPANTOM \n\n", 10);
     dalay(1000);
     print("Tenna: SPANTOM?!!! \n\n", 10);
     dalay(1000);
-    print("Spantom: HEY HEY HEY!!! OLÁ MEU [[$$CLIENTE EM POTENCIAL$$]] \n", 10);
-    print("Spantom: HEY HEY HEY!!! OLÁ MEU [[$$CLIENTE EM POTENCIAL$$]] \n", 10);
+    print("Spantom: HEY HEY HEY!!! OLAH MEU [[$$CLIENTE EM POTENCIAL$$]] \n", 10);
+    dalay(500);
+    print("EH UM [GRANDE] PRAZER ESTAR AQUI HOJE! AGORA EH SUA CHANCE DE SER UM [[BIG SHOT]]! \n", 10);
 
+    dalay(1000);
+    print("\n\nTenna: MIKE O QUE ESSE CARA FAZ AQUI??\n", 10);
+    dalay(100);
+    print("O QUE?! MAS... MAS... COMO ISSO SAIU DE LA?! MEUS DIREITOS AUTORAIS! NAO! NAO! TODOS VAO VER MEU LADO SUJO!\n", 10);
+    dalay(100);
+    print("MAMA... MIA! MAMA MIA! O QUE?! O QUE E ESSE MONSTRO PEQUENO E REPULSIVO?! O QUE E ESSA COISA HORRIVEL E DEFORMADA?!\n", 10);
+    dalay(100);
+    print("MAMA MIA! MAMA MIA! QUE RAIOS E ISSO?! SAIA! SAIA DESTE ESTUDIO LIMPO E PURO! EU NAO RECONHECO ESSA ABERRACAO DE VENDEDOR!\n\n", 10);
+
+    std:: cout << "==============================================" << std:: endl;
+    std:: cout << " " << std:: endl;
+    std:: cout << "              RETORNAMOS EM BREVE             " << std:: endl;
+    std:: cout << " " << std:: endl;
+    std:: cout << "==============================================" << std:: endl;
+    dalay(5000);
+
+    print("\n\nTenna: AHEM...\n", 50);
+    dalay(1000);
+    print("Apos problemas tecnicos decidimos que seu oponente eh o Sans\n\n", 50);
+    dalay(1000);
+    print("Sans: Na verdade eu so queria saber onde eh o banhei- \n\n", 50);
+    print("Tenna: Vamos comecar!!! \n\n", 10);
 
     
     return a;
